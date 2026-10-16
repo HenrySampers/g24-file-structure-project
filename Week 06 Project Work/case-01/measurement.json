@@ -1,0 +1,26 @@
+{
+  "case": "01",
+  "repository": "1024-lab/smart-admin",
+  "repo_url": "https://github.com/1024-lab/smart-admin.git",
+  "commit": "3d3450847870940e8a8b830bbf3c759d6b1c6b80",
+  "first_parent": "c24e89a503227707da6d8f1207c3db31f3ac6987",
+  "source_csv": "Zenodo 20601252 v1 / labs/max_depth_diff_99_pc.csv",
+  "git_route": {
+    "fetch": "git fetch --no-tags --filter=blob:none --depth=2 origin <commit>",
+    "tree": "git ls-tree -r -z --name-only <commit-or-first-parent>",
+    "diff": "git diff --name-status --no-renames <first-parent> <commit>"
+  },
+  "file_count_before": 1,
+  "file_count_after": 605,
+  "max_depth_before": 1,
+  "max_depth_after": 14,
+  "increase": 13,
+  "authors_max_depth_after": 14,
+  "authors_increase": 13.0,
+  "java_threshold": 12.0,
+  "our_outlier_decision": true,
+  "authors_outlier_decision": true,
+  "numeric_match": true,
+  "cause_label_status": "awaiting_two_independent_group_member_labels",
+  "raw_evidence_directory": "case-01"
+}

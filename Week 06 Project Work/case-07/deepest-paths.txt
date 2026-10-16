@@ -1,0 +1,12 @@
+code/src/main/java/group/pals/android/lib/ui/filechooser/io/localfile/LocalFile.java
+code/src/main/java/group/pals/android/lib/ui/filechooser/io/localfile/ParentFile.java
+code/src/main/java/group/pals/android/lib/ui/filechooser/utils/history/History.java
+code/src/main/java/group/pals/android/lib/ui/filechooser/utils/history/HistoryFilter.java
+code/src/main/java/group/pals/android/lib/ui/filechooser/utils/history/HistoryListener.java
+code/src/main/java/group/pals/android/lib/ui/filechooser/utils/history/HistoryStore.java
+code/src/main/java/group/pals/android/lib/ui/filechooser/utils/ui/ContextMenuUtils.java
+code/src/main/java/group/pals/android/lib/ui/filechooser/utils/ui/Dlg.java
+code/src/main/java/group/pals/android/lib/ui/filechooser/utils/ui/LoadingDialog.java
+code/src/main/java/group/pals/android/lib/ui/filechooser/utils/ui/MenuItemAdapter.java
+code/src/main/java/group/pals/android/lib/ui/filechooser/utils/ui/TaskListener.java
+code/src/main/java/group/pals/android/lib/ui/filechooser/utils/ui/ViewFilesContextMenuUtils.java

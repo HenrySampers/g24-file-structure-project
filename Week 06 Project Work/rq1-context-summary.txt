@@ -1,0 +1,45 @@
+G24 / P19 - RQ1 observable context for independent cause review
+
+These are observations from the saved Git trees, name/status diffs and
+commit messages. They are not final cause labels. Review the complete
+case files before deciding a primary cause, especially for mixed cases.
+
+01 - Parent: README.md only. Diff: 604 additions. Subject: v1.0.0.
+     Deepest paths are Java source files under smart-admin-api.
+02 - Parent: .gitignore and README.md. Diff: 1019 additions, 1 modification.
+     Deepest paths include nested Sentinel classes/resources and services.
+03 - Parent tree is empty (depth 0). Diff: 163 additions.
+     Deepest paths include Sentinel Java source files.
+04 - Parent has 4 tracked files. Diff: 1489 additions.
+     Deepest paths include nested Java POI import/parser sources.
+05 - Parent: LICENSE, README.md and pom.xml. Diff: 133 additions,
+     1 modification. Deepest paths include Fabric crypto-config files.
+06 - Parent: LICENSE and README.md. Diff: 824 additions, 2 modifications.
+     Commit message refers to migrating over 500 commits from SVN.
+     Deepest paths include static admin module HTML files.
+07 - Parent: README.md only. Diff: 2023 additions.
+     Deepest paths include Android file-chooser Java sources.
+08 - Parent: .gitignore, LICENSE and README.md. Diff: 176 additions,
+     3 modifications. Subject: feat(project): api&client init.
+     Deepest path is in a nested Java client-bridge module.
+09 - Parent: README.md only. Diff: 1151 additions, 1 modification.
+     Subject: add cobar code from code.alibabatech.com.
+     Deepest paths are Java parser sources.
+10 - Parent: .gitignore and README.md. Diff: 504 additions,
+     2 modifications. Subject refers to transfer from SVN to GitHub.
+     Deepest paths include committed .svn/prop-base and .svn/text-base.
+11 - Parent: LICENSE only. Diff: 470 additions.
+     Deepest paths are Java parser-provider sources.
+12 - Parent: LICENSE only. Diff: 195 additions.
+     Deepest paths are Java graph-codec sources.
+13 - Parent: LICENSE only. Diff: 7899 additions, 1 modification.
+     Subject: init. Deepest paths include static editor assets and Java.
+14 - Parent has 28 tracked files (maximum depth 2). Diff: 519 additions,
+     1 modification. Subject: source code.
+     Deepest paths are Java accessibility-tree sources.
+15 - Parent: LICENSE and README.md. Diff: 681 additions.
+     Deepest paths are under data-spider/spider/venv/Lib/site-packages,
+     including pip vendored dependencies.
+
+Where a commit subject is not English, read its original UTF-8 bytes in
+the case's commit-message.txt; this summary does not translate it.

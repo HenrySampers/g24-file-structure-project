@@ -1,0 +1,26 @@
+{
+  "case": "07",
+  "repository": "adolfan/fbreader_as",
+  "repo_url": "https://github.com/adolfan/fbreader_as.git",
+  "commit": "9e9ded3fab934615a8e9f23c5a6daea9b686a280",
+  "first_parent": "8a0f9ad47776fa84ee53b8b354cd85fcce426469",
+  "source_csv": "Zenodo 20601252 v1 / labs/max_depth_diff_99_pc.csv",
+  "git_route": {
+    "fetch": "git fetch --no-tags --filter=blob:none --depth=2 origin <commit>",
+    "tree": "git ls-tree -r -z --name-only <commit-or-first-parent>",
+    "diff": "git diff --name-status --no-renames <first-parent> <commit>"
+  },
+  "file_count_before": 1,
+  "file_count_after": 2024,
+  "max_depth_before": 1,
+  "max_depth_after": 13,
+  "increase": 12,
+  "authors_max_depth_after": 13,
+  "authors_increase": 12.0,
+  "java_threshold": 12.0,
+  "our_outlier_decision": true,
+  "authors_outlier_decision": true,
+  "numeric_match": true,
+  "cause_label_status": "awaiting_two_independent_group_member_labels",
+  "raw_evidence_directory": "case-07"
+}

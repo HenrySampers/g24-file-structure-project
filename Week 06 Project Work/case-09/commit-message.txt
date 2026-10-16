@@ -1,0 +1,7 @@
+commit a598c40cba327ca31737c65cabb76ab1c112d19f
+Author:     xianmao.hexm <xianmao.hexm@alibaba-inc.com>
+AuthorDate: Wed Jan 15 20:36:43 2014 +0800
+Commit:     xianmao.hexm <xianmao.hexm@alibaba-inc.com>
+CommitDate: Wed Jan 15 20:36:43 2014 +0800
+
+    add cobar code from code.alibabatech.com

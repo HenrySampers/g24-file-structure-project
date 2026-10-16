@@ -1,0 +1,1 @@
+appactive-java-client/client-bridge/client-bridge-rpc-apache-dubbo/client-bridge-rpc-apache-dubbo2/src/main/java/io/appactive/rpc/apache/dubbo2/consumer/callback/Dubbo2AddressCallBack.java

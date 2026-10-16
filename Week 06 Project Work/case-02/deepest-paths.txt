@@ -1,0 +1,5 @@
+mountain-shop-parent/mountain-shop-basics/mountain-shop-basics-sentinel/src/main/java/classes/resources/app/scripts/directives/sidebar/sidebar-search/sidebar-search.html
+mountain-shop-parent/mountain-shop-basics/mountain-shop-basics-sentinel/src/main/java/classes/resources/app/scripts/directives/sidebar/sidebar-search/sidebar-search.js
+mountain-shop-parent/mountain-shop-service/mountain-shop-service-base/mountain-shop-service-base-impl/src/main/java/com/mountain/api/base/service/async/AsyncConfig.java
+mountain-shop-parent/mountain-shop-service/mountain-shop-service-base/mountain-shop-service-base-impl/src/main/java/com/mountain/api/base/service/impl/BaseServiceImpl.java
+mountain-shop-parent/mountain-shop-service/mountain-shop-service-base/mountain-shop-service-base-impl/src/main/java/com/mountain/api/base/service/impl/ServiceImpl.java

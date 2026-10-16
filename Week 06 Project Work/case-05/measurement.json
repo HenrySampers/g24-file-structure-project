@@ -1,0 +1,26 @@
+{
+  "case": "05",
+  "repository": "aberic/fabric-net-server",
+  "repo_url": "https://github.com/aberic/fabric-net-server.git",
+  "commit": "1ced38b2701d76f3d0414d701cf78b16789ac53a",
+  "first_parent": "f976477698a504bf559dc281956095a88745b002",
+  "source_csv": "Zenodo 20601252 v1 / labs/max_depth_diff_99_pc.csv",
+  "git_route": {
+    "fetch": "git fetch --no-tags --filter=blob:none --depth=2 origin <commit>",
+    "tree": "git ls-tree -r -z --name-only <commit-or-first-parent>",
+    "diff": "git diff --name-status --no-renames <first-parent> <commit>"
+  },
+  "file_count_before": 3,
+  "file_count_after": 136,
+  "max_depth_before": 1,
+  "max_depth_after": 14,
+  "increase": 13,
+  "authors_max_depth_after": 14,
+  "authors_increase": 13.0,
+  "java_threshold": 12.0,
+  "our_outlier_decision": true,
+  "authors_outlier_decision": true,
+  "numeric_match": true,
+  "cause_label_status": "awaiting_two_independent_group_member_labels",
+  "raw_evidence_directory": "case-05"
+}

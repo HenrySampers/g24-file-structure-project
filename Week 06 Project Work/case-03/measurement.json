@@ -1,0 +1,26 @@
+{
+  "case": "03",
+  "repository": "1095071913/maozi-cloud-parent",
+  "repo_url": "https://github.com/1095071913/maozi-cloud-parent.git",
+  "commit": "d696bbcb4b3628fd8dd2c6db53357eebd809c2f1",
+  "first_parent": "294c4bcc0ec9afaa973e77397050998385d7e499",
+  "source_csv": "Zenodo 20601252 v1 / labs/max_depth_diff_99_pc.csv",
+  "git_route": {
+    "fetch": "git fetch --no-tags --filter=blob:none --depth=2 origin <commit>",
+    "tree": "git ls-tree -r -z --name-only <commit-or-first-parent>",
+    "diff": "git diff --name-status --no-renames <first-parent> <commit>"
+  },
+  "file_count_before": 0,
+  "file_count_after": 163,
+  "max_depth_before": 0,
+  "max_depth_after": 15,
+  "increase": 15,
+  "authors_max_depth_after": 15,
+  "authors_increase": 15.0,
+  "java_threshold": 12.0,
+  "our_outlier_decision": true,
+  "authors_outlier_decision": true,
+  "numeric_match": true,
+  "cause_label_status": "awaiting_two_independent_group_member_labels",
+  "raw_evidence_directory": "case-03"
+}

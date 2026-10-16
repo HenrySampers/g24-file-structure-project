@@ -1,0 +1,51 @@
+G24 / P19 - RQ1 case 01 measurement
+
+Repository: https://github.com/1024-lab/smart-admin.git
+Commit: 3d3450847870940e8a8b830bbf3c759d6b1c6b80
+First parent: c24e89a503227707da6d8f1207c3db31f3ac6987
+Source row: max_depth_diff_99_pc.csv, repo_id 1024-lab_smart-admin,
+            commit_id 3d3450847870940e8a8b830bbf3c759d6b1c6b80
+
+Environment and route
+---------------------
+Git was available on Windows (git version 2.53.0.windows.1 checked in
+this workspace). The repository is stored at
+repos/1024-lab__smart-admin. To recreate it there from scratch:
+git -c http.sslBackend=openssl clone --filter=blob:none --no-checkout https://github.com/1024-lab/smart-admin.git .\repos\1024-lab__smart-admin
+
+Both commit IDs returned type 'commit' using git cat-file -t.
+Tracked paths can be obtained with:
+git -C .\repos\1024-lab__smart-admin ls-tree -r --name-only c24e89a503227707da6d8f1207c3db31f3ac6987
+git -C .\repos\1024-lab__smart-admin ls-tree -r --name-only 3d3450847870940e8a8b830bbf3c759d6b1c6b80
+
+The resulting path lists were saved as case-01-before-paths.txt and
+case-01-after-paths.txt. A file's depth is its number of path components
+separated by '/'; README.md at the root has depth 1. The maximum depth
+of each list was computed in PowerShell with:
+($paths | ForEach-Object { ($_ -split '/').Count } | Measure-Object -Maximum).Maximum
+
+Observed result
+---------------
+Tracked files before: 1
+Tracked files after: 605
+Maximum depth before: 1
+Maximum depth after: 14
+Depth increase: 14 - 1 = 13
+Released Java threshold: 12
+Our outlier decision: yes (13 >= 12)
+Authors' released after-depth: 14
+Authors' released increase: 13
+Numeric comparison: exact match for this one case.
+The Python collector and verifier later recalculated this case as part
+of the full 15-case run; the original PowerShell text files were kept.
+
+Cause evidence collected, not yet classified
+--------------------------------------------
+The parent tree contains only README.md. The commit message is v1.0.0.
+The saved name/status diff has 604 additions and no other status.
+Deepest paths include Java files under the smart-admin-api source tree.
+The raw changed-path list, deepest paths and commit message are in the
+corresponding case-01 text files. Two members still need to save their
+independent cause labels before comparison with the authors' labels.
+
+Status: numeric pilot complete; human cause classification pending.

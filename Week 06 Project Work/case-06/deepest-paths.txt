@@ -1,0 +1,9 @@
+abixen-platform-modules/src/main/resources/static/admin/modules/abixen/multi-visualization/modules/database-connection/html/edit.html
+abixen-platform-modules/src/main/resources/static/admin/modules/abixen/multi-visualization/modules/database-connection/html/index.html
+abixen-platform-modules/src/main/resources/static/admin/modules/abixen/multi-visualization/modules/database-connection/html/list.html
+abixen-platform-modules/src/main/resources/static/admin/modules/abixen/multi-visualization/modules/database-data-source/html/edit.html
+abixen-platform-modules/src/main/resources/static/admin/modules/abixen/multi-visualization/modules/database-data-source/html/index.html
+abixen-platform-modules/src/main/resources/static/admin/modules/abixen/multi-visualization/modules/database-data-source/html/list.html
+abixen-platform-modules/src/main/resources/static/admin/modules/abixen/multi-visualization/modules/file-data-source/html/edit.html
+abixen-platform-modules/src/main/resources/static/admin/modules/abixen/multi-visualization/modules/file-data-source/html/index.html
+abixen-platform-modules/src/main/resources/static/admin/modules/abixen/multi-visualization/modules/file-data-source/html/list.html

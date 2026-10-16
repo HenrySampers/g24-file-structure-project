@@ -1,0 +1,3 @@
+src/shared/src/main/java/com/alipay/hulu/shared/node/tree/accessibility/tree/AccessibilityNodeTree.java
+src/shared/src/main/java/com/alipay/hulu/shared/node/tree/accessibility/util/AccessibilityUtil.java
+src/shared/src/main/java/com/alipay/hulu/shared/node/tree/export/bean/OperationStep.java

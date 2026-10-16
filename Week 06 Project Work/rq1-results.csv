@@ -1,0 +1,16 @@
+case,repository,commit_id,parent_id,authors_max_depth,authors_increase,java_threshold,our_before_depth,our_after_depth,our_increase,numeric_match,status
+01,1024-lab/smart-admin,3d3450847870940e8a8b830bbf3c759d6b1c6b80,c24e89a503227707da6d8f1207c3db31f3ac6987,14,13,12,1,14,13,yes,measured_cause_pending
+02,1095071913/maozi-cloud-parent,22638b8ee4465fe5a9b3299510bfd938fbeffd81,269c845928ec1fed4bee3b38018d622dedcbe99d,14,13,12,1,14,13,yes,measured_cause_pending
+03,1095071913/maozi-cloud-parent,d696bbcb4b3628fd8dd2c6db53357eebd809c2f1,294c4bcc0ec9afaa973e77397050998385d7e499,15,15,12,0,15,15,yes,measured_cause_pending
+04,274056675/springboot-openai-chatgpt,1096986102d311e0852653c46a8663e493341cb8,61d4d5afbfadf5a4bad3e53a9c01a7bb4ec97f28,15,14,12,1,15,14,yes,measured_cause_pending
+05,aberic/fabric-net-server,1ced38b2701d76f3d0414d701cf78b16789ac53a,f976477698a504bf559dc281956095a88745b002,14,13,12,1,14,13,yes,measured_cause_pending
+06,abixen/abixen-platform,7ba91014f482a958642b6523406d8a4cef5d7933,51890c90e128c2d171789a023a8eb575fde17ff3,13,12,12,1,13,12,yes,measured_cause_pending
+07,adolfan/fbreader_as,9e9ded3fab934615a8e9f23c5a6daea9b686a280,8a0f9ad47776fa84ee53b8b354cd85fcce426469,13,12,12,1,13,12,yes,measured_cause_pending
+08,alibaba/appactive,5a36b76909915781aa1b68508f3108943c1150ba,fa79a45cac402a23f502a533e5380813a869809c,15,14,12,1,15,14,yes,measured_cause_pending
+09,alibaba/cobar,a598c40cba327ca31737c65cabb76ab1c112d19f,c63202e29d22609ebf129991e105c7fa4290979e,14,13,12,1,14,13,yes,measured_cause_pending
+10,alibaba/cobarclient,4c94bf50d87411d874ae17cff8f2be6feb4ed09a,8bfb5c71416571f296fb1964b865c82e97c747fc,13,12,12,1,13,12,yes,measured_cause_pending
+11,alibaba/compileflow,70b6aa1b24f9ecd09aabeb37ba172c5310d5492d,dc48b02bb32ca9418b324d4e79ed38a51c9a0e34,15,14,12,1,15,14,yes,measured_cause_pending
+12,alibaba/compileflow-idea-designer,4f0548e865cecf2d70f625e7594c928b84460ef6,e8db6499439946714a346cdb3e49d7365c7b6c83,13,12,12,1,13,12,yes,measured_cause_pending
+13,alibaba/sreworks,3a195e4bdb4e09161827afa6cda3bc27b6872b21,37364491feea7ff70f025cb6b62b382ea8217506,18,17,12,1,18,17,yes,measured_cause_pending
+14,alipay/solopi,aed7abb361b9a3bad5d893286ffe9a07e22e6215,6b52c91169e604e941b988b374a10731db7510b7,14,12,12,2,14,12,yes,measured_cause_pending
+15,alldatacenter/alldata,d361345e59dca612383385b4a4d255c28034b7eb,0336a1ae49f8d2102e57454abdbd76c9da685e09,14,13,12,1,14,13,yes,measured_cause_pending

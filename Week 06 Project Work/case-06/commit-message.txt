@@ -1,0 +1,7 @@
+commit 7ba91014f482a958642b6523406d8a4cef5d7933
+Author:     Mariusz Kumor <mariusz.kumor@abixen.com>
+AuthorDate: Sun Oct 23 23:10:23 2016 +0200
+Commit:     Mariusz Kumor <mariusz.kumor@abixen.com>
+CommitDate: Mon Oct 24 08:50:02 2016 +0200
+
+    A migration over 500 commits from SVN.

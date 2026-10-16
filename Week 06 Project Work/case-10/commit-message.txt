@@ -1,0 +1,7 @@
+commit 4c94bf50d87411d874ae17cff8f2be6feb4ed09a
+Author:     fujohnwang <fujohnwang@gmail.com>
+AuthorDate: Mon Jul 15 10:35:41 2013 +0800
+Commit:     fujohnwang <fujohnwang@gmail.com>
+CommitDate: Mon Jul 15 10:35:41 2013 +0800
+
+    transfer cobarclient1.0.4 from svn to github repo

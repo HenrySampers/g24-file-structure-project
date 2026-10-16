@@ -1,0 +1,9 @@
+src/main/java/com/alibaba/compileflow/idea/graph/codec/impl/bpmn/codec/AbstractBpmnActionCodec.java
+src/main/java/com/alibaba/compileflow/idea/graph/codec/impl/bpmn/codec/BpmnDecisionNodeCodec.java
+src/main/java/com/alibaba/compileflow/idea/graph/codec/impl/bpmn/codec/BpmnModelDecoder.java
+src/main/java/com/alibaba/compileflow/idea/graph/codec/impl/bpmn/codec/BpmnModelEncoder.java
+src/main/java/com/alibaba/compileflow/idea/graph/codec/impl/bpmn/codec/BpmnScriptTaskNodeCodec.java
+src/main/java/com/alibaba/compileflow/idea/graph/codec/impl/bpmn/codec/BpmnServiceTaskNodeCodec.java
+src/main/java/com/alibaba/compileflow/idea/graph/codec/impl/bpmn/codec/CodecUtil.java
+src/main/java/com/alibaba/compileflow/idea/graph/codec/impl/bpmn/xml/Node.java
+src/main/java/com/alibaba/compileflow/idea/graph/codec/impl/bpmn/xml/XmlUtil.java
