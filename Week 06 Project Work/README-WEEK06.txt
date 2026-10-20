@@ -12,8 +12,9 @@ All 15 cases have completed depth measurements matching the authors'
 released increases and outlier decisions. The RQ1 reproduction is still
 IN PROGRESS, not yet REPRODUCED under the group's full decision rule:
 two independent group-member cause labels and comparison with the
-authors' cause labels remain. No human or author cause labels have been
-entered in these files.
+authors' cause labels remain. Member 1's cause CSV contains an
+AI-assisted draft only; no independent human review or author cause
+labels have been entered in these files.
 
 Files
 -----
@@ -34,8 +35,9 @@ run_rq1_cases.py: repeatable evidence collection for all 15 cases.
 verify_rq1.py and verification.txt: automated check of fixed selection,
 source values, saved raw paths and reported depth results (PASS).
 rq1-context-summary.txt: objective path/change context for cause review.
-rq1-labels-member-1.txt and rq1-labels-member-2.txt: separate blank
-cause-review forms for the whole sample.
+rq1-labels-member-1.csv: AI-assisted cause draft for all 15 cases;
+member 1 must review the evidence, revise as needed and add their name.
+rq1-labels-member-2.csv: blank form for an independent second review.
 rq1-cause-comparison.csv: blank table for agreed labels and comparison
 with the authors after both independent reviews are saved.
 
