@@ -1,0 +1,2 @@
+M	mall-portal/src/main/java/com/macro/mall/portal/service/impl/UmsMemberServiceImpl.java
+M	mall-security/src/main/java/com/macro/mall/security/util/JwtTokenUtil.java

@@ -1,0 +1,6 @@
+tree 047d79d8588b76013c260f3f1a9565707301a60a
+parent d9501e97a78eb2bb0ae8eaa273eeb1cfc7c5d386
+author macro <zhenghong1991@126.com> 1778747428 +0800
+committer macro <zhenghong1991@126.com> 1778747428 +0800
+
+升级支持Spring Boot 3.5

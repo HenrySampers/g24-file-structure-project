@@ -1,0 +1,7 @@
+commit 74eebe067d4f17b2d0b61691bef2748e3a7daf80
+Author:     macro <zhenghong1991@126.com>
+AuthorDate: Fri Jan 16 16:32:29 2026 +0800
+Commit:     macro <zhenghong1991@126.com>
+CommitDate: Fri Jan 16 16:32:29 2026 +0800
+
+    Update SmsHomeNewProductController.java

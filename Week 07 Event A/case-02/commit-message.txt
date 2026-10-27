@@ -1,0 +1,7 @@
+commit f9add0f8f9668f4669c9fad6817acc428734e876
+Author:     macro <zhenghong1991@126.com>
+AuthorDate: Sun Jan 11 11:29:14 2026 +0800
+Commit:     macro <zhenghong1991@126.com>
+CommitDate: Sun Jan 11 11:29:14 2026 +0800
+
+    Update UmsMenuController.java

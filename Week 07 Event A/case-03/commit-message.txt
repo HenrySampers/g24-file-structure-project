@@ -1,0 +1,7 @@
+commit f2ace8377d2767195bbbf2ffa5c092eddc307895
+Author:     macro <zhenghong1991@126.com>
+AuthorDate: Tue Jan 13 16:48:05 2026 +0800
+Commit:     macro <zhenghong1991@126.com>
+CommitDate: Tue Jan 13 16:48:05 2026 +0800
+
+    Update SmsFlashPromotionController.java

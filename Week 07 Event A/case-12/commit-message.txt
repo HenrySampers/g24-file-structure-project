@@ -1,0 +1,7 @@
+commit 90abe7c0e0cc6abc9d14ae905a842d3e16168761
+Author:     macro <zhenghong1991@126.com>
+AuthorDate: Fri Jan 23 10:30:57 2026 +0800
+Commit:     macro <zhenghong1991@126.com>
+CommitDate: Fri Jan 23 10:30:57 2026 +0800
+
+    Update PmsProductAttributeController.java

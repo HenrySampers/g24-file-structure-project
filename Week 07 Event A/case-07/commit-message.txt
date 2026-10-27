@@ -1,0 +1,7 @@
+commit c15dcfce6be80e73695ff208a89553c8f4facfb6
+Author:     macro <zhenghong1991@126.com>
+AuthorDate: Thu Jan 15 15:17:33 2026 +0800
+Commit:     macro <zhenghong1991@126.com>
+CommitDate: Thu Jan 15 15:17:33 2026 +0800
+
+    Update SmsCouponController.java

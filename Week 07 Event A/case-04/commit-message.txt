@@ -1,0 +1,7 @@
+commit dd94f3b4b317e604eee9b96252160e1a5c69785d
+Author:     macro <zhenghong1991@126.com>
+AuthorDate: Tue Jan 13 17:08:16 2026 +0800
+Commit:     macro <zhenghong1991@126.com>
+CommitDate: Tue Jan 13 17:08:16 2026 +0800
+
+    Update SmsFlashPromotionSessionController.java

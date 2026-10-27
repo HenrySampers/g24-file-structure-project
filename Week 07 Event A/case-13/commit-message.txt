@@ -1,0 +1,7 @@
+commit bab28d498fba5f69538583313af5fd68907ba8ae
+Author:     macro <zhenghong1991@126.com>
+AuthorDate: Fri Jan 23 10:31:00 2026 +0800
+Commit:     macro <zhenghong1991@126.com>
+CommitDate: Fri Jan 23 10:31:00 2026 +0800
+
+    Update PmsProductCategoryController.java

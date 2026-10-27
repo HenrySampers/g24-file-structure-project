@@ -1,0 +1,12 @@
+{
+  "case": "18",
+  "commit_id": "0504e86b1f1b6f1b8aa6a734d37a90fb67346be7",
+  "first_parent": "d9501e97a78eb2bb0ae8eaa273eeb1cfc7c5d386",
+  "before_file_count": 719,
+  "after_file_count": 717,
+  "before_max_depth": 11,
+  "after_max_depth": 11,
+  "depth_increase": 0,
+  "outlier_ge_12": false,
+  "commit_url": "https://github.com/macrozheng/mall/commit/0504e86b1f1b6f1b8aa6a734d37a90fb67346be7"
+}

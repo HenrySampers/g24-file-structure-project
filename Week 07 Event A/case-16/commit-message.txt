@@ -1,0 +1,7 @@
+commit 3a0f17fceae9cf7333acbeec71c89916ff99b8d4
+Author:     macro <zhenghong1991@126.com>
+AuthorDate: Fri Mar 6 15:29:55 2026 +0800
+Commit:     macro <zhenghong1991@126.com>
+CommitDate: Fri Mar 6 15:29:55 2026 +0800
+
+    Update LICENSE

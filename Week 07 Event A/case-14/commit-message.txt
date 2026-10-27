@@ -1,0 +1,7 @@
+commit 534f727ea00c001d7c3b5fe5553ca06b0c6e0244
+Author:     macro <zhenghong1991@126.com>
+AuthorDate: Tue Jan 27 09:28:19 2026 +0800
+Commit:     macro <zhenghong1991@126.com>
+CommitDate: Tue Jan 27 09:28:19 2026 +0800
+
+    Update PmsSkuStockController.java
