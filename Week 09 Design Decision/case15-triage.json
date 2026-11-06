@@ -1,0 +1,26 @@
+{
+  "repository": "alldatacenter/alldata",
+  "commit": "d361345e59dca612383385b4a4d255c28034b7eb",
+  "first_parent": "0336a1ae49f8d2102e57454abdbd76c9da685e09",
+  "threshold": 12,
+  "frozen_m2": {
+    "before_max_depth": 1,
+    "after_max_depth": 14,
+    "increase": 13,
+    "outlier": true
+  },
+  "diagnostic_excluding_exact_venv_prefix": {
+    "excluded_prefix": "data-spider/spider/venv/",
+    "tracked_venv_paths_at_commit": 307,
+    "tracked_other_paths_at_commit": 376,
+    "before_max_depth": 1,
+    "after_max_depth": 8,
+    "increase": 7,
+    "would_meet_original_threshold": false
+  },
+  "deepest_paths": [
+    "data-spider/spider/venv/Lib/site-packages/pip-9.0.1-py3.6.egg/pip/_vendor/requests/packages/urllib3/packages/ssl_match_hostname/__init__.py",
+    "data-spider/spider/venv/Lib/site-packages/pip-9.0.1-py3.6.egg/pip/_vendor/requests/packages/urllib3/packages/ssl_match_hostname/_implementation.py"
+  ],
+  "interpretation": "Path-origin diagnostic only; original M2 outlier result remains 13 >= 12."
+}
