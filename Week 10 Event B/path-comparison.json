@@ -1,0 +1,96 @@
+{
+  "scope": "Reasoned path-placement comparison; no application files were created, moved, compiled or tested",
+  "source_commit": "d361345e59dca612383385b4a4d255c28034b7eb",
+  "source_first_parent": "0336a1ae49f8d2102e57454abdbd76c9da685e09",
+  "source_path_lists": [
+    "Week 06 Project Work/case-15/before-paths.raw",
+    "Week 06 Project Work/case-15/after-paths.raw"
+  ],
+  "frozen_week9_tag": "PRE_EVENT_B",
+  "threshold": 12,
+  "first_parent": {
+    "tracked_path_count": 2,
+    "maximum_file_depth": 1
+  },
+  "source_commit_tree": {
+    "tracked_path_count": 683,
+    "maximum_file_depth": 14
+  },
+  "source_commit_without_venv_diagnostic": {
+    "tracked_path_count": 376,
+    "maximum_file_depth": 8
+  },
+  "tracked_venv_paths": 307,
+  "proposed_feature_path_depths": {
+    "data-spider/spider/ArticleSpider/spiders/newssite.py": 5,
+    "data-spider/spider/ArticleSpider/models/news_article.py": 5,
+    "data-spider/spider/ArticleSpider/utils/news_parser.py": 5,
+    "data-spider/spider/ArticleSpider/resources/news_selectors.json": 5
+  },
+  "layouts": {
+    "pre_m4_application_structure": {
+      "proposed_paths": [
+        "data-spider/spider/ArticleSpider/spiders/newssite.py",
+        "data-spider/spider/ArticleSpider/models/news_article.py",
+        "data-spider/spider/ArticleSpider/utils/news_parser.py",
+        "data-spider/spider/ArticleSpider/resources/news_selectors.json"
+      ],
+      "required_new_files": 4,
+      "new_directories": [
+        "data-spider/spider/ArticleSpider/resources"
+      ],
+      "existing_files_moved": 0,
+      "existing_files_deleted": 0,
+      "extra_file_changes_beyond_fixed_feature_paths": 0,
+      "after_feature": {
+        "tracked_path_count": 687,
+        "maximum_file_depth": 14
+      },
+      "new_feature_depth_increase": 0
+    },
+    "m4_application_structure": {
+      "proposed_paths": [
+        "data-spider/spider/ArticleSpider/spiders/newssite.py",
+        "data-spider/spider/ArticleSpider/models/news_article.py",
+        "data-spider/spider/ArticleSpider/utils/news_parser.py",
+        "data-spider/spider/ArticleSpider/resources/news_selectors.json"
+      ],
+      "required_new_files": 4,
+      "new_directories": [
+        "data-spider/spider/ArticleSpider/resources"
+      ],
+      "existing_files_moved": 0,
+      "existing_files_deleted": 0,
+      "extra_file_changes_beyond_fixed_feature_paths": 0,
+      "after_feature": {
+        "tracked_path_count": 687,
+        "maximum_file_depth": 14
+      },
+      "new_feature_depth_increase": 0
+    }
+  },
+  "comparison": {
+    "difference_in_required_new_files": 0,
+    "difference_in_new_directories": 0,
+    "difference_in_existing_files_moved_or_deleted": 0,
+    "avoidable_structural_file_churn_shown_by_m4": 0,
+    "explanation": "M4 changed only analysis output, so it cannot place the application feature differently without a further design change."
+  },
+  "alternative_co_locate_resource_in_existing_utils": {
+    "proposed_paths": [
+      "data-spider/spider/ArticleSpider/models/news_article.py",
+      "data-spider/spider/ArticleSpider/spiders/newssite.py",
+      "data-spider/spider/ArticleSpider/utils/news_parser.py",
+      "data-spider/spider/ArticleSpider/utils/news_selectors.json"
+    ],
+    "after_feature": {
+      "tracked_path_count": 687,
+      "maximum_file_depth": 14
+    },
+    "new_directories": [],
+    "existing_files_moved_or_deleted": 0
+  },
+  "frozen_case15_outlier_increase": 13,
+  "feature_extension_outlier_increase": 0,
+  "m4_diagnostic_max_depth_after_feature": 8
+}
