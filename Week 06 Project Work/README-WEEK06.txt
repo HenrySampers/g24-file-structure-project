@@ -9,10 +9,11 @@ Thesis-FileStructureAnalysis-main/labs/max_depth_diff_99_pc.csv.
 Current state
 -------------
 All 15 cases have completed depth measurements matching the authors'
-released increases and outlier decisions. The RQ1 reproduction is still
-IN PROGRESS, not yet REPRODUCED under the group's full decision rule:
-two independent group-member cause labels and comparison with the
-authors' cause labels remain.
+released increases and outlier decisions. The RQ1 reproduction is
+REPRODUCED under the group's decision rule. Two group members labelled
+the cause of every case on their own, and the labels were then compared
+with the authors' cause labels (see rq1-cause-comparison.csv and
+tracker I28).
 
 Files
 -----
@@ -34,12 +35,12 @@ verify_rq1.py and verification.txt: automated check of fixed selection,
 source values, saved raw paths and reported depth results (PASS).
 rq1-context-summary.txt: objective path/change context for cause review.
 rq1-labels-member-1.csv: member 1's cause labels for all 15 cases.
-rq1-labels-member-2.csv: blank form for an independent second review.
-rq1-cause-comparison.csv: blank table for agreed labels and comparison
-with the authors after both independent reviews are saved.
+rq1-labels-member-2.csv: member 2's cause labels for all 15 cases.
+rq1-cause-comparison.csv: both labels, the agreed label, the authors'
+label, whether they match, and notes on each disagreement.
 
-Procedure and pending work
---------------------------
+Procedure
+---------
 1. Keep the fixed case even if its history cannot be accessed. Record the
    issue; do not substitute a more convenient commit.
 2. Obtain the exact commit and first parent listed in rq1-results.csv.
@@ -52,9 +53,5 @@ Procedure and pending work
    seeing each other's label or the authors' classification.
 5. After both labels are saved, resolve any disagreement, then compare
    with the authors' label. Keep all original labels and disagreements.
-6. Preserve raw evidence and any failures. Report a current status in
-   tracker I28 and a link to this evidence location in J28. Do not claim
-   the whole sample is reproduced from the pilot alone.
-
-These files do not show that the group completed a coordinator checkpoint
-or the required independent human cause review.
+6. Preserve raw evidence and any failures. The result is in tracker I28
+   and the link to this evidence location is in J28.
