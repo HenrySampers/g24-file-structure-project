@@ -83,9 +83,23 @@ for index, row in enumerate(rows):
     report.append(f"{case:>4}  {measured['before']:>6}  {measured['after']:>5}  "
                   f"{increase:>8}  {float(row['authors_increase']):>15g}  {matches}")
 
+# Cause-label summary, counted from the saved label files (not re-judged here).
+labels = list(csv.DictReader((ROOT / "rq1-cause-comparison.csv").open(newline="", encoding="utf-8")))
+member_agree = [r["case"] for r in labels if r["member_1_label"].strip().lower() == r["member_2_label"].strip().lower()]
+author_agree = [r["case"] for r in labels if r["agreed_primary_label"].strip().lower() == r["authors_primary_label"].strip().lower()]
+if any((r["case"] in author_agree) != (r["label_match"].strip().lower() == "yes") for r in labels):
+    problems.append("rq1-cause-comparison.csv: label_match column disagrees with the labels")
+report.extend([
+    "",
+    "Cause labels (from rq1-cause-comparison.csv)",
+    f"Member 1 vs member 2 agreement: {len(member_agree)}/{len(labels)}"
+    f" (differ: {', '.join(r['case'] for r in labels if r['case'] not in member_agree) or 'none'})",
+    f"Agreed label vs authors' label: {len(author_agree)}/{len(labels)}"
+    f" (differ: {', '.join(r['case'] for r in labels if r['case'] not in author_agree) or 'none'})",
+    "Label agreement is counted from the saved files; the labels themselves are human judgements.",
+])
 report.extend(["", "Verification: " + ("PASS" if not problems else "FAIL")])
 report.extend("- " + problem for problem in problems)
-report.append("Cause labels and agreement are not verified here; they remain pending.")
 (ROOT / "verification.txt").write_text("\n".join(report) + "\n", encoding="utf-8")
 print("\n".join(report))
 sys.exit(0 if not problems else 1)

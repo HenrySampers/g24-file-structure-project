@@ -15,6 +15,15 @@ The depth alert alone cannot tell a maintainer whether the deepest path is appli
 3. **Remove the tracked virtual environment from the original repository and add an ignore rule.** This could clean that repository, but requires a reliable environment reconstruction route and build/runtime checks. We have not established those checks for this historical third-party project, so we do not claim this cleanup is safe or completed.
 4. **Keep the original metric and add a separate path-origin diagnostic.** This preserves comparability with M2 and gives a maintainer the concrete paths behind the alert. We chose this bounded intervention for our analysis tooling.
 
+## Module concepts behind the decision
+
+*(Added after the `PRE_EVENT_B` freeze. The decision itself is unchanged.)*
+
+- **High cohesion:** the check is its own small script with one job, explaining which paths cause the alert.
+- **Low coupling:** it only reads the saved M2 files, so the M2 results can't be changed by it.
+- **Information hiding:** the depth number hides which files caused it, and the check shows them.
+- **No unnecessary complexity:** one small script was enough, so we didn't restructure the repo or add a design pattern.
+
 ## Chosen work and verification
 
 [`analyze_case15.py`](analyze_case15.py) reads the saved first-parent and commit path lists from M2, checks the frozen case IDs and 1 → 14 result, then writes [`case15-triage.json`](case15-triage.json). It does not rewrite any M2 evidence or change the threshold. Re-running it refuses to overwrite a differing diagnostic.

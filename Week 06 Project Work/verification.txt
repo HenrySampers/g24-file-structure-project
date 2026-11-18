@@ -23,5 +23,9 @@ Case  Before  After  Increase  Author increase  Match
   14       2     14        12               12  True
   15       1     14        13               13  True
 
+Cause labels (from rq1-cause-comparison.csv)
+Member 1 vs member 2 agreement: 13/15 (differ: 3, 5)
+Agreed label vs authors' label: 12/15 (differ: 3, 5, 10)
+Label agreement is counted from the saved files; the labels themselves are human judgements.
+
 Verification: PASS
-Cause labels and agreement are not verified here; they remain pending.

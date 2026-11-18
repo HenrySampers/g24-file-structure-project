@@ -27,4 +27,13 @@ For repository maintenance, a depth alert should prompt inspection of the paths 
 
 ## Reproduction
 
-The fetched repository lives under the ignored `Week 06 Project Work/repos/macrozheng__mall` directory. From the project root, run `python "Event A/run_event_a.py"`. The script checks the fixed 21-commit chain, recalculates every case and confirms that existing evidence agrees byte for byte. The GitHub evidence repository should contain this `Event A` folder; the Git object database itself is intentionally excluded.
+The held-out repository is not committed (the ignored `Week 06 Project Work/repos/` folder holds it). To fetch it, run these from the project root:
+
+```bash
+git init "Week 06 Project Work/repos/macrozheng__mall"
+git -C "Week 06 Project Work/repos/macrozheng__mall" remote add origin https://github.com/macrozheng/mall.git
+git -C "Week 06 Project Work/repos/macrozheng__mall" fetch --no-tags --filter=blob:none --depth=25 origin dcaa93b3150352e5044708d7211b5bed0af4509f
+```
+
+Then, from the project root, run `python "Week 07 Event A/run_event_a.py"`. The script checks the fixed 21-commit chain, recalculates every case and compares it with the saved evidence. It won't overwrite a saved file that differs. The GitHub evidence repository contains this `Week 07 Event A` folder; the Git object database itself is intentionally excluded.
+

@@ -1,6 +1,6 @@
 """Frozen P19 Event A measurement for the preselected 20 mall commits.
 
-Run from any directory with: python "Event A/run_event_a.py"
+Run from any directory with: python "Week 07 Event A/run_event_a.py"
 The repository must already be fetched into Week 06 Project Work/repos/macrozheng__mall.
 Existing evidence is never silently replaced.
 """
